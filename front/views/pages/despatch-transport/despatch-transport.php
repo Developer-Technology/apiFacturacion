@@ -1,3 +1,14 @@
+<?php if($_SESSION["user"]->rol_usuario == 3) {
+
+	echo '<script>
+			fncFormatInputs();
+			matPreloader("off");
+			fncSweetAlert("close", "", "");
+			fncSweetAlert("error", "You do not have permission to access this view", "/");
+		</script>';
+
+} else { ?>
+
 <div class="content__header content__boxed overlapping">
     <div class="content__wrap">
 
@@ -53,6 +64,8 @@ if (isset($routesArray[2])) {
 }
 
 ?>
+
+<?php } ?>
 
     </div>
 

@@ -14,9 +14,9 @@ Mail: info@chanamoth.com
         <!-- Page title and information -->
         <h1 class="page-title mb-2">Bienvenido</h1>
         <h2 class="h5"><?php echo $dataSett->nombre_sistema_configuracion ?>, un producto de <?php echo $dataSett->nombre_empresa_configuracion ?>
-
+            <?php if($_SESSION["user"]->rol_usuario != 3): ?>
             <button class="btn btn-default border" data-toggle="modal" data-target="#viewToken" style="position: absolute; right: 20px; top: 12%;"><i class="fa fa-eye"></i> <span class="vr"></span> Mis Credenciales</button>
-
+            <?php endif ?>
         </h2>
         <p class="lead"></p>
         <!-- END : Page title and information -->

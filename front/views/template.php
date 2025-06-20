@@ -386,6 +386,7 @@ if ($routesArray[1] == "users" ||
     $routesArray[1] == "summary" ||
     $routesArray[1] == "voided" ||
     $routesArray[1] == "suscriptions" ||
+    $routesArray[1] == "documents" ||
     $routesArray[1] == "plans"):
 
 ?>
@@ -647,6 +648,7 @@ if (isset($_SESSION["user"]) && empty($_SESSION["empresa"]) && empty($_SESSION["
         $routesArray[1] == "summary" ||
         $routesArray[1] == "voided" ||
         $routesArray[1] == "suscriptions" ||
+        $routesArray[1] == "documents" ||
         $routesArray[1] == "logout") {
 
         ?>

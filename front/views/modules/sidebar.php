@@ -67,6 +67,7 @@
                 <h6 class="mainnav__caption mt-0 px-3 fw-bold">Menú De Navegación</h6>
                 <ul class="mainnav__menu nav flex-column">
 
+                    <?php if($_SESSION["user"]->rol_usuario != 3): ?>
                     <li class="nav-item">
                         <a href="/businesses/general" class="nav-link mininav-toggle waves-effect <?php if (!empty($routesArray) && $routesArray[1] == 'businesses'): ?>active<?php endif?>">
                             <img src="<?php echo TemplateController::returnImgDefault('businesess.png', '') ?>" style="width: 15px; margin-top: -2.5px;">
@@ -74,7 +75,9 @@
                             <span class="nav-label mininav-content ms-1">Empresa</span>
                         </a>
                     </li>
+                    <?php endif ?>
 
+                    <?php if($_SESSION["user"]->rol_usuario != 3): ?>
                     <!-- Link with submenu -->
                     <li class="nav-item has-sub">
 
@@ -103,11 +106,12 @@
 
                     </li>
                     <!-- END : Link with submenu -->
+                    <?php endif ?>
 
                     <!-- Link with submenu -->
                     <li class="nav-item has-sub">
 
-                        <a href="#" class="mininav-toggle nav-link waves-effect collapsed <?php if (!empty($routesArray) && $routesArray[1] == 'despatch-remitent' || $routesArray[1] == 'despatch-transport' || $routesArray[1] == 'summary' || $routesArray[1] == 'voided'): ?>active<?php endif?>">
+                        <a href="#" class="mininav-toggle nav-link waves-effect collapsed <?php if (!empty($routesArray) && $routesArray[1] == 'despatch-remitent' || $routesArray[1] == 'despatch-transport' || $routesArray[1] == 'summary' || $routesArray[1] == 'voided' || $routesArray[1] == 'documents'): ?>active<?php endif?>">
                             <img src="<?php echo TemplateController::returnImgDefault('sunat.svg', 'svg') ?>" style="width: 15px; margin-top: -2.5px;">
                             <i class="me-2"></i>
                             <span class="nav-label ms-1">Doc. Electrónicos</span>
@@ -115,6 +119,7 @@
 
                         <!-- Ui Elements submenu list -->
                         <ul class="mininav-content nav collapse">
+                            <?php if($_SESSION["user"]->rol_usuario != 3): ?>
                             <li class="nav-item has-sub">
                                 <a href="#" class="mininav-toggle nav-link collapsed <?php if (!empty($routesArray) && $routesArray[1] == "despatch-remitent" || $routesArray[1] == "despatch-transport"): ?>active<?php endif ?>">Guía Remisión</a>
                                 <ul class="mininav-content nav collapse">
@@ -131,6 +136,10 @@
                             </li>
                             <li class="nav-item">
                                 <a href="/voided" class="nav-link waves-effect <?php if (!empty($routesArray) && $routesArray[1] == 'voided'): ?>active<?php endif?>">Comunicación Baja</a>
+                            </li>
+                            <?php endif ?>
+                            <li class="nav-item">
+                                <a href="/documents" class="nav-link waves-effect <?php if (!empty($routesArray) && $routesArray[1] == 'documents'): ?>active<?php endif?>">Historial</a>
                             </li>
                         </ul>
                         <!-- END : Ui Elements submenu list -->
@@ -177,9 +186,11 @@
                             </div>
                         </li>
                     </ul>
+                    <?php if($_SESSION["user"]->rol_usuario != 3): ?>
                     <div class="d-grid px-3 mt-3">
                         <a href="/suscriptions" class="btn btn-sm btn-success">Mi Suscripción</a>
                     </div>
+                    <?php endif ?>
                 </div>
             </div>
             <!-- End - Profile widget -->

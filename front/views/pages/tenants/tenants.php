@@ -64,6 +64,7 @@ $allTenants = $dataUsers->id_empresa_usuario;
                             <div class="card h-100">
                                 <div class="card-header">
                                     <span style="font-size: 16px"><?php echo $dataSett->nombre_sistema_configuracion ?></span>
+                                    <?php if($_SESSION["user"]->rol_usuario != 3): ?>
                                     <div class="pull-right">
                                         <a href="/cart" class="btn btn-primary hstack gap-2 align-self-center">
                                             <i class="demo-psi-add fs-5"></i>
@@ -71,6 +72,7 @@ $allTenants = $dataUsers->id_empresa_usuario;
                                             Agregar una Empresa
                                         </a>
                                     </div>
+                                    <?php endif ?>
                                 </div>
                                 <div class="card-body">
                                     <div class="table-responsive">

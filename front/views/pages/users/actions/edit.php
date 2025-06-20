@@ -140,13 +140,20 @@ Mail: info@chanamoth.com
                             <?php if($usuario->rol_usuario == '1'): ?>
                                 <option value="1" selected>Administrador</option>
                                 <option value="2">Usuario</option>
+                                <option value="3">Cliente</option>
                             <?php elseif($usuario->rol_usuario == '2'): ?>
                                 <option value="1">Administrador</option>
                                 <option value="2" selected>Usuario</option>
+                                <option value="3">Cliente</option>
+                            <?php elseif($usuario->rol_usuario == '3'): ?>
+                                <option value="1">Administrador</option>
+                                <option value="2">Usuario</option>
+                                <option value="3" selected>Cliente</option>
                             <?php else: ?>
                                 <option value="">Selecciona Rol</option>
                                 <option value="1">Administrador</option>
                                 <option value="2">Usuario</option>
+                                <option value="3">Cliente</option>
                             <?php endif ?>
 
                         </select>

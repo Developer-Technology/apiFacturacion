@@ -86,6 +86,7 @@
                             <option value="">Selecciona Rol</option>
                             <option value="1">Administrador</option>
                             <option value="2">Usuario</option>
+                            <option value="3">Cliente</option>
                         </select>
 
                         <label for="rol-user">Rol <sup class="text-danger">*</sup></label>
