@@ -1,0 +1,869 @@
+/*-------------------------
+Autor: Chanamoth
+Web: www.chanamoth.com
+Mail: info@chanamoth.com
+---------------------------*/
+
+.swal2-styled.swal2-confirm {
+    font-size: 12px;
+}
+
+.swal2-styled.swal2-cancel {
+    font-size: 12px;
+}
+
+.swal2-styled.swal2-deny {
+    font-size: 12px;
+}
+
+.select2-container--bootstrap4 .select2-selection--single {
+    height: 36.7px;
+}
+
+.img__register {
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, .07);
+    border-radius: 0.4375rem;
+}
+
+.mr-2 {
+    margin-right: 2px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.preloadFalse {
+    display: none;
+    height: 0;
+}
+
+.inputButton {
+    margin-top: -30px;
+}
+
+@media(max-width: 434px) {
+    .inputButton {
+        margin-top: 20px;
+    }
+}
+
+.activeMeet {
+    border: 1px dashed #25476a;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.group__0 {
+    border-radius: 0;
+    height: 40.6px;
+}
+
+.group__border {
+    border-top-right-radius: 0.4375rem;
+    border-bottom-right-radius: 0.4375rem;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.empty-cart {
+    padding: 25px;
+    font-size: 13px;
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+
+.code {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+.card-plan {
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: .4375rem;
+    transition: 0.5s;
+}
+
+.card-plan:hover {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.card-plan.active {
+    background: #eee;
+    border: 1px solid #001f3f;
+}
+
+/*Custom Control*/
+.custom-control {
+    position: relative;
+    z-index: 1;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+.custom-control-inline {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+.custom-control-input {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 1rem;
+    height: 1.25rem;
+    opacity: 0;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #25476a;
+    background-color: #25476a;
+    box-shadow: none;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+    border-color: #25476a;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    color: #fff;
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+    box-shadow: none;
+}
+
+.custom-control-input[disabled]~.custom-control-label,
+.custom-control-input:disabled~.custom-control-label {
+    color: #6c757d;
+}
+
+.custom-control-input[disabled]~.custom-control-label::before,
+.custom-control-input:disabled~.custom-control-label::before {
+    background-color: #e9ecef;
+}
+
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.custom-control-label::before {
+    position: absolute;
+    top: 0.25rem;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    content: "";
+    background-color: #f7f7f7;
+    border: #adb5bd solid 1px;
+}
+
+.custom-control-label::after {
+    position: absolute;
+    top: 0.25rem;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background: 50% / 50% 50% no-repeat;
+}
+
+/*Custom Switch*/
+.custom-switch {
+    padding-left: 2.25rem;
+}
+
+.custom-switch .custom-control-label::before {
+    left: -2.25rem;
+    width: 1.75rem;
+    pointer-events: all;
+    border-radius: 0.5rem;
+}
+
+.custom-switch .custom-control-label::after {
+    top: calc(0.25rem + 2px);
+    left: calc(-2.25rem + 2px);
+    width: calc(1rem - 4px);
+    height: calc(1rem - 4px);
+    background-color: #adb5bd;
+    border-radius: 0.5rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .custom-switch .custom-control-label::after {
+        transition: none;
+    }
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+    background-color: #f7f7f7;
+    -webkit-transform: translateX(0.75rem);
+    transform: translateX(0.75rem);
+}
+
+.custom-switch .custom-control-input:disabled:checked~.custom-control-label::before {
+    background-color: rgba(0, 123, 255, 0.5);
+}
+
+/*Bootstrap Switch*/
+.bootstrap-switch {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    direction: ltr;
+    display: inline-block;
+    line-height: .5rem;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    z-index: 0;
+}
+
+.bootstrap-switch .bootstrap-switch-container {
+    border-radius: 0.25rem;
+    display: inline-block;
+    top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.bootstrap-switch:focus-within {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on,
+.bootstrap-switch .bootstrap-switch-handle-off,
+.bootstrap-switch .bootstrap-switch-label {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: table-cell;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    padding: .25rem .5rem;
+    vertical-align: middle;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on,
+.bootstrap-switch .bootstrap-switch-handle-off {
+    text-align: center;
+    z-index: 1;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
+    background: #e9ecef;
+    color: #1f2d3d;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+    background: #25476a;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-secondary,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-secondary {
+    background: #6c757d;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success {
+    background: #28a745;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info {
+    background: #17a2b8;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning {
+    background: #ffc107;
+    color: #1f2d3d;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger {
+    background: #dc3545;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-light,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-light {
+    background: #f8f9fa;
+    color: #1f2d3d;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-dark,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-dark {
+    background: #343a40;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-lightblue,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-lightblue {
+    background: #3c8dbc;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-navy,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-navy {
+    background: #001f3f;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-olive,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-olive {
+    background: #3d9970;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-lime,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-lime {
+    background: #01ff70;
+    color: #1f2d3d;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-fuchsia,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-fuchsia {
+    background: #f012be;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-maroon,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-maroon {
+    background: #d81b60;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-blue,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-blue {
+    background: #25476a;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-indigo,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-indigo {
+    background: #6610f2;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-purple,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-purple {
+    background: #6f42c1;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-pink,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-pink {
+    background: #e83e8c;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-red,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-red {
+    background: #dc3545;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-orange {
+    background: #fd7e14;
+    color: #1f2d3d;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-yellow,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-yellow {
+    background: #ffc107;
+    color: #1f2d3d;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
+    background: #28a745;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-teal,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-teal {
+    background: #20c997;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-cyan,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-cyan {
+    background: #17a2b8;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-white,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-white {
+    background: #fff;
+    color: #1f2d3d;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-gray,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-gray {
+    background: #6c757d;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-gray-dark,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-gray-dark {
+    background: #343a40;
+    color: #fff;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on {
+    border-bottom-left-radius: 0.1rem;
+    border-top-left-radius: 0.1rem;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-off {
+    border-bottom-right-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+}
+
+.bootstrap-switch input[type='radio'],
+.bootstrap-switch input[type='checkbox'] {
+    filter: alpha(opacity=0);
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.bootstrap-switch.bootstrap-switch-mini .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-mini .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-mini .bootstrap-switch-label {
+    font-size: .875rem;
+    line-height: 1.5;
+    padding: .1rem .3rem;
+}
+
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-label {
+    font-size: .875rem;
+    line-height: 1.5;
+    padding: .2rem .4rem;
+}
+
+.bootstrap-switch.bootstrap-switch-large .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-large .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-large .bootstrap-switch-label {
+    font-size: 1.25rem;
+    line-height: 1.3333333rem;
+    padding: .3rem .5rem;
+}
+
+.bootstrap-switch.bootstrap-switch-disabled,
+.bootstrap-switch.bootstrap-switch-readonly,
+.bootstrap-switch.bootstrap-switch-indeterminate {
+    cursor: default;
+}
+
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-label,
+.bootstrap-switch.bootstrap-switch-readonly .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-readonly .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-readonly .bootstrap-switch-label,
+.bootstrap-switch.bootstrap-switch-indeterminate .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-indeterminate .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-indeterminate .bootstrap-switch-label {
+    cursor: default;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.bootstrap-switch.bootstrap-switch-animate .bootstrap-switch-container {
+    transition: margin-left .5s;
+}
+
+.bootstrap-switch.bootstrap-switch-inverse .bootstrap-switch-handle-on {
+    border-radius: 0 0.1rem 0.1rem 0;
+}
+
+.bootstrap-switch.bootstrap-switch-inverse .bootstrap-switch-handle-off {
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-label,
+.bootstrap-switch.bootstrap-switch-inverse.bootstrap-switch-off .bootstrap-switch-label {
+    border-bottom-right-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+}
+
+.bootstrap-switch.bootstrap-switch-off .bootstrap-switch-label,
+.bootstrap-switch.bootstrap-switch-inverse.bootstrap-switch-on .bootstrap-switch-label {
+    border-bottom-left-radius: 0.1rem;
+    border-top-left-radius: 0.1rem;
+}
+
+.dark-mode .bootstrap-switch {
+    border-color: #6c757d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default {
+    background-color: #3a4047;
+    color: #fff;
+    border-color: #454d55;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+    background: #3f6791;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-secondary,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-secondary {
+    background: #6c757d;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success {
+    background: #00bc8c;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info {
+    background: #3498db;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning {
+    background: #f39c12;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger {
+    background: #e74c3c;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-light,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-light {
+    background: #f8f9fa;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-dark,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-dark {
+    background: #343a40;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-lightblue,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-lightblue {
+    background: #86bad8;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-navy,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-navy {
+    background: #002c59;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-olive,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-olive {
+    background: #74c8a3;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-lime,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-lime {
+    background: #67ffa9;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-fuchsia,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-fuchsia {
+    background: #f672d8;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-maroon,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-maroon {
+    background: #ed6c9b;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-blue,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-blue {
+    background: #3f6791;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-indigo,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-indigo {
+    background: #6610f2;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-purple,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-purple {
+    background: #6f42c1;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-pink,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-pink {
+    background: #e83e8c;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-red,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-red {
+    background: #e74c3c;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-orange {
+    background: #fd7e14;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-yellow,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-yellow {
+    background: #f39c12;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
+    background: #00bc8c;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-teal,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-teal {
+    background: #20c997;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-cyan,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-cyan {
+    background: #3498db;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-white,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-white {
+    background: #fff;
+    color: #1f2d3d;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-gray,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-gray {
+    background: #6c757d;
+    color: #fff;
+}
+
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-gray-dark,
+.dark-mode .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-gray-dark {
+    background: #343a40;
+    color: #fff;
+}
+
+/*Custom File*/
+.custom-file {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 37.6px;
+    margin-bottom: 0;
+    transition: border-color .35s ease-in-out, box-shadow .35s ease-in-out;
+}
+
+.custom-file-input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 37.6px;
+    margin: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: border-color .35s ease-in-out, box-shadow .35s ease-in-out;
+}
+
+.custom-file:focus {
+    color: #75868f;
+    background-color: #fff;
+    border-color: #25476a;
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(55, 60, 67, .075), 0 0 .75rem 0 rgba(0, 0, 0, .125)
+}
+
+.custom-file-input:focus~.custom-file-label {
+    color: #75868f;
+    background-color: #fff;
+    border-color: #25476a;
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(55, 60, 67, .075), 0 0 .75rem 0 rgba(0, 0, 0, .125)
+}
+
+.custom-file-input[disabled]~.custom-file-label,
+.custom-file-input:disabled~.custom-file-label {
+    background-color: #e9ecef;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "Browse";
+}
+
+.custom-file-input~.custom-file-label[data-browse]::after {
+    content: attr(data-browse);
+}
+
+.custom-file-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: 37.6px;
+    padding: 0.55rem 1rem;
+    overflow: hidden;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #75868f;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .07);
+    border-radius: 0.4375rem;
+    box-shadow: none;
+}
+
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: 2.25rem;
+    padding: 0.55rem 1rem;
+    line-height: 1.5;
+    color: #75868f;
+    content: "Browse";
+    background-color: #fff;
+    border-left: inherit;
+    border-radius: 0 0.4375rem 0.4375rem 0;
+}
+
+/**/
+.fc-color-picker {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fc-color-picker>li {
+    float: left;
+    font-size: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.fc-color-picker>li .fa,
+.fas,
+.far,
+.fab,
+.fal,
+.fad,
+.svg-inline--fa,
+.ion {
+    transition: transform linear .3s;
+}
+
+.fc-color-picker>li .fa,
+.fas:hover,
+.far,
+.fab,
+.fal,
+.fad,
+.svg-inline--fa,
+.ion {
+    transform: rotate(30deg);
+}
+
+.chose__active {
+    transform: rotate(30deg);
+}
+
+.p-relative {
+    position: relative;
+}
+
+.br-bottom {
+    border-radius: 0 0 0.4375rem 0.4375rem;
+}
+
+/**/
+.bg-gray-dark {
+    background: #9ea2a8;
+}
+
+.bg-gray-dark:hover {
+    background: #9ea2a8;
+}
+
+/*Modal close*/
+.modal-header .close {
+    border: 0;
+    border-radius: 0.4375rem;
+}

@@ -1,0 +1,380 @@
+[
+    {
+        "id": "1",
+        "name": "UNIDAD",
+        "code": "",
+        "xml": "NIU"
+    },
+    {
+        "id": "2",
+        "name": "BOBINAS",
+        "code": "",
+        "xml": "4A"
+    },
+    {
+        "id": "3",
+        "name": "BALDE",
+        "code": "",
+        "xml": "BJ"
+    },
+    {
+        "id": "4",
+        "name": "BARRILES",
+        "code": "",
+        "xml": "BLL"
+    },
+    {
+        "id": "5",
+        "name": "BOLSA",
+        "code": "",
+        "xml": "BG"
+    },
+    {
+        "id": "6",
+        "name": "BOTELLAS",
+        "code": "",
+        "xml": "BO"
+    },
+    {
+        "id": "7",
+        "name": "CAJA",
+        "code": "",
+        "xml": "BX"
+    },
+    {
+        "id": "8",
+        "name": "CARTONES",
+        "code": "",
+        "xml": "CT"
+    },
+    {
+        "id": "9",
+        "name": "CENTIMETRO CUADRADO",
+        "code": "",
+        "xml": "CMK"
+    },
+    {
+        "id": "10",
+        "name": "CENTIMETRO CUBICO",
+        "code": "",
+        "xml": "CMQ"
+    },
+    {
+        "id": "11",
+        "name": "CENTIMETRO LINEAL",
+        "code": "",
+        "xml": "CMT"
+    },
+    {
+        "id": "12",
+        "name": "CIENTO DE UNIDADES",
+        "code": "",
+        "xml": "CEN"
+    },
+    {
+        "id": "13",
+        "name": "CILINDRO",
+        "code": "",
+        "xml": "CY"
+    },
+    {
+        "id": "14",
+        "name": "CONOS",
+        "code": "",
+        "xml": "CJ"
+    },
+    {
+        "id": "15",
+        "name": "DOCENA",
+        "code": "",
+        "xml": "DZN"
+    },
+    {
+        "id": "16",
+        "name": "DOCENA POR 10**6",
+        "code": "",
+        "xml": "DZP"
+    },
+    {
+        "id": "17",
+        "name": "FARDO",
+        "code": "",
+        "xml": "BE"
+    },
+    {
+        "id": "18",
+        "name": "GALON INGLES (4,545956L)",
+        "code": "",
+        "xml": "GLI"
+    },
+    {
+        "id": "19",
+        "name": "GRAMO",
+        "code": "",
+        "xml": "GRM"
+    },
+    {
+        "id": "20",
+        "name": "GRUESA",
+        "code": "",
+        "xml": "GRO"
+    },
+    {
+        "id": "21",
+        "name": "HECTOLITRO",
+        "code": "",
+        "xml": "HLT"
+    },
+    {
+        "id": "22",
+        "name": "HOJA",
+        "code": "",
+        "xml": "LEF"
+    },
+    {
+        "id": "23",
+        "name": "JUEGO",
+        "code": "",
+        "xml": "SET"
+    },
+    {
+        "id": "24",
+        "name": "KILOGRAMO",
+        "code": "",
+        "xml": "KGM"
+    },
+    {
+        "id": "25",
+        "name": "KILOMETRO",
+        "code": "",
+        "xml": "KTM"
+    },
+    {
+        "id": "26",
+        "name": "KILOVATIO HORA",
+        "code": "",
+        "xml": "KWH"
+    },
+    {
+        "id": "27",
+        "name": "KIT",
+        "code": "",
+        "xml": "KT"
+    },
+    {
+        "id": "28",
+        "name": "LATAS",
+        "code": "",
+        "xml": "CA"
+    },
+    {
+        "id": "29",
+        "name": "LIBRAS",
+        "code": "",
+        "xml": "LBR"
+    },
+    {
+        "id": "30",
+        "name": "LITRO",
+        "code": "",
+        "xml": "LTR"
+    },
+    {
+        "id": "31",
+        "name": "MEGAWATT HORA",
+        "code": "",
+        "xml": "MWH"
+    },
+    {
+        "id": "32",
+        "name": "METRO",
+        "code": "",
+        "xml": "MTR"
+    },
+    {
+        "id": "33",
+        "name": "METRO CUADRADO",
+        "code": "",
+        "xml": "MTK"
+    },
+    {
+        "id": "34",
+        "name": "METRO CUBICO",
+        "code": "",
+        "xml": "MTQ"
+    },
+    {
+        "id": "35",
+        "name": "MILIGRAMOS",
+        "code": "",
+        "xml": "MGM"
+    },
+    {
+        "id": "36",
+        "name": "MILILITRO",
+        "code": "",
+        "xml": "MLT"
+    },
+    {
+        "id": "37",
+        "name": "MILIMETRO",
+        "code": "",
+        "xml": "MMT"
+    },
+    {
+        "id": "38",
+        "name": "MILIMETRO CUADRADO",
+        "code": "",
+        "xml": "MMK"
+    },
+    {
+        "id": "39",
+        "name": "MILIMETRO CUBICO",
+        "code": "",
+        "xml": "MMQ"
+    },
+    {
+        "id": "40",
+        "name": "MILLARES",
+        "code": "",
+        "xml": "MLL"
+    },
+    {
+        "id": "41",
+        "name": "MILLON DE UNIDADES",
+        "code": "",
+        "xml": "UM"
+    },
+    {
+        "id": "42",
+        "name": "ONZAS",
+        "code": "",
+        "xml": "ONZ"
+    },
+    {
+        "id": "43",
+        "name": "PALETAS",
+        "code": "",
+        "xml": "PF"
+    },
+    {
+        "id": "44",
+        "name": "PAQUETE",
+        "code": "",
+        "xml": "PK"
+    },
+    {
+        "id": "45",
+        "name": "PAR",
+        "code": "",
+        "xml": "PR"
+    },
+    {
+        "id": "46",
+        "name": "PIES",
+        "code": "",
+        "xml": "FOT"
+    },
+    {
+        "id": "47",
+        "name": "PIES CUADRADOS",
+        "code": "",
+        "xml": "FTK"
+    },
+    {
+        "id": "48",
+        "name": "PIES CUBICOS",
+        "code": "",
+        "xml": "FTQ"
+    },
+    {
+        "id": "49",
+        "name": "PIEZAS",
+        "code": "",
+        "xml": "C62"
+    },
+    {
+        "id": "50",
+        "name": "PLACAS",
+        "code": "",
+        "xml": "PG"
+    },
+    {
+        "id": "51",
+        "name": "PLIEGO",
+        "code": "",
+        "xml": "ST"
+    },
+    {
+        "id": "52",
+        "name": "PULGADAS",
+        "code": "",
+        "xml": "INH"
+    },
+    {
+        "id": "53",
+        "name": "RESMA",
+        "code": "",
+        "xml": "RM"
+    },
+    {
+        "id": "54",
+        "name": "TAMBOR",
+        "code": "",
+        "xml": "DR"
+    },
+    {
+        "id": "55",
+        "name": "TONELADA CORTA",
+        "code": "",
+        "xml": "STN"
+    },
+    {
+        "id": "56",
+        "name": "TONELADA LARGA",
+        "code": "",
+        "xml": "LTN"
+    },
+    {
+        "id": "57",
+        "name": "TONELADAS",
+        "code": "",
+        "xml": "TNE"
+    },
+    {
+        "id": "58",
+        "name": "TUBOS",
+        "code": "",
+        "xml": "TU"
+    },
+    {
+        "id": "59",
+        "name": "UNIDAD (SERVICIOS) ",
+        "code": "",
+        "xml": "ZZ"
+    },
+    {
+        "id": "60",
+        "name": "US GALON (3,7843 L)",
+        "code": "",
+        "xml": "GLL"
+    },
+    {
+        "id": "61",
+        "name": "YARDA",
+        "code": "",
+        "xml": "YRD"
+    },
+    {
+        "id": "62",
+        "name": "YARDA CUADRADA",
+        "code": "",
+        "xml": "YDK"
+    },
+    {
+        "id": "63",
+        "name": "PLANCHA",
+        "code": "",
+        "xml": "PLAN"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "FACTURA",
+        "folio": "F00",
+        "code": "1"
+    },
+    {
+        "id": "2",
+        "name": "BOLETA DE VENTA",
+        "folio": "B00",
+        "code": "3"
+    },
+    {
+        "id": "3",
+        "name": "NOTA DE CREDITO",
+        "folio": "FC0",
+        "code": "7"
+    },
+    {
+        "id": "4",
+        "name": "NOTA DE DEBITO",
+        "folio": "FD0",
+        "code": "8"
+    },
+    {
+        "id": "5",
+        "name": "NOTA DE VENTA",
+        "folio": "V00",
+        "code": "100"
+    },
+    {
+        "id": "6",
+        "name": "NOTA DE CREDITO",
+        "folio": "BC0",
+        "code": "7"
+    },
+    {
+        "id": "7",
+        "name": "NOTA DE DEBITO",
+        "folio": "BD0",
+        "code": "8"
+    },
+    {
+        "id": "8",
+        "name": "GUIA DE REMISION",
+        "folio": "T00",
+        "code": "9"
+    },
+    {
+        "id": "9",
+        "name": "COTIZACION",
+        "folio": "C00",
+        "code": "101"
+    },
+    {
+        "id": "10",
+        "name": "RESUMEN",
+        "folio": "R00",
+        "code": "102"
+    }
+]

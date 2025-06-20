@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "code": "0",
+        "name": "OTROS TIPOS DE DOCUMENTOS",
+        "longitud": "15"
+    },
+    {
+        "id": "2",
+        "code": "1",
+        "name": "D.N.I",
+        "longitud": "8"
+    },
+    {
+        "id": "3",
+        "code": "4",
+        "name": "CARNÉ DE EXTRANJERÍA",
+        "longitud": "12"
+    },
+    {
+        "id": "4",
+        "code": "6",
+        "name": "R.U.C.",
+        "longitud": "11"
+    },
+    {
+        "id": "5",
+        "code": "7",
+        "name": "PASAPORTE",
+        "longitud": "12"
+    },
+    {
+        "id": "6",
+        "code": "A",
+        "name": "CÉDULA DIPLOMÁTICA DE IDENTIDAD",
+        "longitud": "15"
+    }
+]

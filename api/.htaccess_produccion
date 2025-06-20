@@ -1,0 +1,40 @@
+Options All -Indexes
+Options -MultiViews
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+RewriteCond %{HTTP:Authorization} ^(.+)$
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
+
+<IfModule mod_headers.c>
+Header set Cache-Control "max-age=0,no-store"
+</IfModule>
+
+# asegurando el archivo htaccess
+
+<IfModule mod_headers.c>
+  Header set Cache-Control "max-age=0,no-store"
+  # Habilitar CORS para archivos XML
+  <FilesMatch "\.(xml)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+    Header set Access-Control-Allow-Headers "X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  </FilesMatch>
+</IfModule>
+
+# denegar acceso a robots maliciosos, extractores de webs y navegadores offline
+RewriteBase /
+RewriteCond %{HTTP_USER_AGENT} ^Anarchie [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ASPSeek [OR]
+RewriteCond %{HTTP_USER_AGENT} ^attach [OR]
+RewriteCond %{HTTP_USER_AGENT} ^autoemailspider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Xenu [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Zeus.*Webster [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Zeus
+RewriteRule ^.* - [F,L]

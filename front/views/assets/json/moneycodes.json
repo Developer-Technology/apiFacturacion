@@ -1,0 +1,1072 @@
+[
+    {
+        "id": "1",
+        "code": "AED",
+        "name": "UAE DIRHAM",
+        "country": "EMIRATOS ARABES UNIDOS"
+    },
+    {
+        "id": "2",
+        "code": "AFN",
+        "name": "AFGHANI",
+        "country": "AFGANISTAN"
+    },
+    {
+        "id": "3",
+        "code": "ALL",
+        "name": "LEK",
+        "country": "ALBANIA"
+    },
+    {
+        "id": "4",
+        "code": "AMD",
+        "name": "ARMENIAN DRAM",
+        "country": "ARMENIA"
+    },
+    {
+        "id": "5",
+        "code": "ANG",
+        "name": "NETHERLANDS ANTILLIAN GUILDER",
+        "country": "ANTILLAS HOLANDESAS"
+    },
+    {
+        "id": "6",
+        "code": "AOA",
+        "name": "KWANZA",
+        "country": "ANGOLA"
+    },
+    {
+        "id": "7",
+        "code": "ARS",
+        "name": "ARGENTINE PESO",
+        "country": "ARGENTINA"
+    },
+    {
+        "id": "8",
+        "code": "AUD",
+        "name": "AUSTRALIAN DOLLAR",
+        "country": "AUSTRALIA"
+    },
+    {
+        "id": "9",
+        "code": "AWG",
+        "name": "ARUBAN GUILDER",
+        "country": "ARUBA"
+    },
+    {
+        "id": "10",
+        "code": "AZN",
+        "name": "AZERBAIJANIAN MANAT",
+        "country": "AZERBAIYAN"
+    },
+    {
+        "id": "11",
+        "code": "BAM",
+        "name": "CONVERTIBLE MARKS",
+        "country": "BOSNIA Y HERZEGOVINA"
+    },
+    {
+        "id": "12",
+        "code": "BBD",
+        "name": "BARBADOS DOLLAR",
+        "country": "BARBADOS"
+    },
+    {
+        "id": "13",
+        "code": "BDT",
+        "name": "TAKA",
+        "country": "BANGLADESH"
+    },
+    {
+        "id": "14",
+        "code": "BGN",
+        "name": "BULGARIAN LEV",
+        "country": "BULGARIA"
+    },
+    {
+        "id": "15",
+        "code": "BHD",
+        "name": "BAHRAINI DINAR",
+        "country": "BAHREIN"
+    },
+    {
+        "id": "16",
+        "code": "BIF",
+        "name": "BURUNDI FRANC",
+        "country": "BURUNDI"
+    },
+    {
+        "id": "17",
+        "code": "BMD",
+        "name": "BERMUDIAN DOLLAR (CUSTOMARILY KNOWN AS BERMUDA DOLLAR)",
+        "country": "BERMUDAS"
+    },
+    {
+        "id": "18",
+        "code": "BND",
+        "name": "BRUNEI DOLLAR",
+        "country": "BRUNEI DARUSSALAM"
+    },
+    {
+        "id": "19",
+        "code": "BOB",
+        "name": "BOLIVIANO",
+        "country": "BOLIVIA"
+    },
+    {
+        "id": "20",
+        "code": "BOV",
+        "name": "MVDOL",
+        "country": "BOLIVIA"
+    },
+    {
+        "id": "21",
+        "code": "BRL",
+        "name": "BRAZILIAN REAL",
+        "country": "BRASIL"
+    },
+    {
+        "id": "22",
+        "code": "BSD",
+        "name": "BAHAMIAN DOLLAR",
+        "country": "BAHAMAS"
+    },
+    {
+        "id": "23",
+        "code": "BTN",
+        "name": "NGULTRUM",
+        "country": "BUTAN"
+    },
+    {
+        "id": "24",
+        "code": "BWP",
+        "name": "PULA",
+        "country": "BOTSUANA"
+    },
+    {
+        "id": "25",
+        "code": "BYR",
+        "name": "BELARUSSIAN RUBLE",
+        "country": "BIELORRUSIA"
+    },
+    {
+        "id": "26",
+        "code": "BZD",
+        "name": "BELIZE DOLLAR",
+        "country": "BELICE"
+    },
+    {
+        "id": "27",
+        "code": "CAD",
+        "name": "CANADIAN DOLLAR",
+        "country": "CANADA"
+    },
+    {
+        "id": "28",
+        "code": "CDF",
+        "name": "CONGOLESE FRANC",
+        "country": "REPUBLICA DEMOCRATICA DEL CONGO"
+    },
+    {
+        "id": "29",
+        "code": "CHE",
+        "name": "WIR EURO",
+        "country": "SUIZA"
+    },
+    {
+        "id": "30",
+        "code": "CHF",
+        "name": "SWISS FRANC",
+        "country": "SUIZA"
+    },
+    {
+        "id": "31",
+        "code": "CHW",
+        "name": "WIR FRANC",
+        "country": "SUIZA"
+    },
+    {
+        "id": "32",
+        "code": "CLF",
+        "name": "UNIDADES DE FOMENTO",
+        "country": "CHILE"
+    },
+    {
+        "id": "33",
+        "code": "CLP",
+        "name": "CHILEAN PESO",
+        "country": "CHILE"
+    },
+    {
+        "id": "34",
+        "code": "CNY",
+        "name": "YUAN RENMINBI",
+        "country": "CHINA (REPUBLICA POPULAR)"
+    },
+    {
+        "id": "35",
+        "code": "COP",
+        "name": "COLOMBIAN PESO",
+        "country": "COLOMBIA"
+    },
+    {
+        "id": "36",
+        "code": "COU",
+        "name": "UNIDAD DE VALOR REAL",
+        "country": "COLOMBIA"
+    },
+    {
+        "id": "37",
+        "code": "CRC",
+        "name": "COSTA RICAN COLON",
+        "country": "COSTA RICA"
+    },
+    {
+        "id": "38",
+        "code": "CUC",
+        "name": "PESO CONVERTIBLE",
+        "country": "CUBA"
+    },
+    {
+        "id": "39",
+        "code": "CUP",
+        "name": "CUBAN PESO",
+        "country": "CUBA"
+    },
+    {
+        "id": "40",
+        "code": "CVE",
+        "name": "CAPE VERDE ESCUDO",
+        "country": "CABO VERDE"
+    },
+    {
+        "id": "41",
+        "code": "CZK",
+        "name": "CZECH KORUNA",
+        "country": "REPUBLICA CHECA"
+    },
+    {
+        "id": "42",
+        "code": "DJF",
+        "name": "DJIBOUTI FRANC",
+        "country": "YIBUTI"
+    },
+    {
+        "id": "43",
+        "code": "DKK",
+        "name": "DANISH KRONE",
+        "country": "DINAMARCA"
+    },
+    {
+        "id": "44",
+        "code": "DOP",
+        "name": "DOMINICAN PESO",
+        "country": "REPUBLICA DOMINICANA"
+    },
+    {
+        "id": "45",
+        "code": "DZD",
+        "name": "ALGERIAN DINAR",
+        "country": "ARGELIA"
+    },
+    {
+        "id": "46",
+        "code": "EEK",
+        "name": "KROON",
+        "country": "ESTONIA"
+    },
+    {
+        "id": "47",
+        "code": "EGP",
+        "name": "EGYPTIAN POUND",
+        "country": "EGIPTO"
+    },
+    {
+        "id": "48",
+        "code": "ERN",
+        "name": "NAKFA",
+        "country": "ERITREA"
+    },
+    {
+        "id": "49",
+        "code": "ETB",
+        "name": "ETHIOPIAN BIRR",
+        "country": "ETIOPIA"
+    },
+    {
+        "id": "50",
+        "code": "EUR",
+        "name": "EURO",
+        "country": "UNION EUROPEA"
+    },
+    {
+        "id": "51",
+        "code": "FJD",
+        "name": "FIJI DOLLAR",
+        "country": "FIYI"
+    },
+    {
+        "id": "52",
+        "code": "FKP",
+        "name": "FALKLAND ISLANDS POUND",
+        "country": "ISLAS MALVINAS"
+    },
+    {
+        "id": "53",
+        "code": "GBP",
+        "name": "POUND STERLING",
+        "country": "REINO UNIDO"
+    },
+    {
+        "id": "54",
+        "code": "GEL",
+        "name": "LARI",
+        "country": "GEORGIA"
+    },
+    {
+        "id": "55",
+        "code": "GHS",
+        "name": "CEDI",
+        "country": "GHANA"
+    },
+    {
+        "id": "56",
+        "code": "GIP",
+        "name": "GIBRALTAR POUND",
+        "country": "GIBRALTAR"
+    },
+    {
+        "id": "57",
+        "code": "GMD",
+        "name": "DALASI",
+        "country": "GAMBIA"
+    },
+    {
+        "id": "58",
+        "code": "GNF",
+        "name": "GUINEA FRANC",
+        "country": "GUINEA"
+    },
+    {
+        "id": "59",
+        "code": "GTQ",
+        "name": "QUETZAL",
+        "country": "GUATEMALA"
+    },
+    {
+        "id": "60",
+        "code": "GYD",
+        "name": "GUYANA DOLLAR",
+        "country": "GUYANA"
+    },
+    {
+        "id": "61",
+        "code": "HKD",
+        "name": "HONG KONG DOLLAR",
+        "country": "HONG KONG"
+    },
+    {
+        "id": "62",
+        "code": "HNL",
+        "name": "LEMPIRA",
+        "country": "HONDURAS"
+    },
+    {
+        "id": "63",
+        "code": "HRK",
+        "name": "CROATIAN KUNA",
+        "country": "CROACIA"
+    },
+    {
+        "id": "64",
+        "code": "HTG",
+        "name": "GOURDE",
+        "country": "HAITI"
+    },
+    {
+        "id": "65",
+        "code": "HUF",
+        "name": "FORINT",
+        "country": "HUNGRIA"
+    },
+    {
+        "id": "66",
+        "code": "IDR",
+        "name": "RUPIAH",
+        "country": "INDONESIA"
+    },
+    {
+        "id": "67",
+        "code": "ILS",
+        "name": "NEW ISRAELI SHEQEL",
+        "country": "ISRAEL"
+    },
+    {
+        "id": "68",
+        "code": "INR",
+        "name": "INDIAN RUPEE",
+        "country": "INDIA"
+    },
+    {
+        "id": "69",
+        "code": "IQD",
+        "name": "IRAQI DINAR",
+        "country": "IRAQ"
+    },
+    {
+        "id": "70",
+        "code": "IRR",
+        "name": "IRANIAN RIAL",
+        "country": "IRAN"
+    },
+    {
+        "id": "71",
+        "code": "ISK",
+        "name": "ICELAND KRONA",
+        "country": "ISLANDIA"
+    },
+    {
+        "id": "72",
+        "code": "JMD",
+        "name": "JAMAICAN DOLLAR",
+        "country": "JAMAICA"
+    },
+    {
+        "id": "73",
+        "code": "JOD",
+        "name": "JORDANIAN DINAR",
+        "country": "JORDANIA"
+    },
+    {
+        "id": "74",
+        "code": "JPY",
+        "name": "YEN",
+        "country": "JAPON"
+    },
+    {
+        "id": "75",
+        "code": "KES",
+        "name": "KENYAN SHILLING",
+        "country": "KENIA"
+    },
+    {
+        "id": "76",
+        "code": "KGS",
+        "name": "SOM",
+        "country": "KIRGUISTAN"
+    },
+    {
+        "id": "77",
+        "code": "KHR",
+        "name": "RIEL",
+        "country": "CAMBOYA"
+    },
+    {
+        "id": "78",
+        "code": "KMF",
+        "name": "COMORO FRANC",
+        "country": "COMORAS"
+    },
+    {
+        "id": "79",
+        "code": "KPW",
+        "name": "NORTH KOREAN WON",
+        "country": "COREA (DEL NORTE)"
+    },
+    {
+        "id": "80",
+        "code": "KRW",
+        "name": "WON",
+        "country": "COREA (DEL SUR)"
+    },
+    {
+        "id": "81",
+        "code": "KWD",
+        "name": "KUWAITI DINAR",
+        "country": "KUWAIT"
+    },
+    {
+        "id": "82",
+        "code": "KYD",
+        "name": "CAYMAN ISLANDS DOLLAR",
+        "country": "ISLAS CAIMAN"
+    },
+    {
+        "id": "83",
+        "code": "KZT",
+        "name": "TENGE",
+        "country": "KAZAJISTAN"
+    },
+    {
+        "id": "84",
+        "code": "LAK",
+        "name": "KIP",
+        "country": "LAOS"
+    },
+    {
+        "id": "85",
+        "code": "LBP",
+        "name": "LEBANESE POUND",
+        "country": "LIBANO"
+    },
+    {
+        "id": "86",
+        "code": "LKR",
+        "name": "SRI LANKA RUPEE",
+        "country": "SRI LANKA"
+    },
+    {
+        "id": "87",
+        "code": "LRD",
+        "name": "LIBERIAN DOLLAR",
+        "country": "LIBERIA"
+    },
+    {
+        "id": "88",
+        "code": "LSL",
+        "name": "LOTI",
+        "country": "LESOTO"
+    },
+    {
+        "id": "89",
+        "code": "LTL",
+        "name": "LITHUANIAN LITAS",
+        "country": "LITUANIA"
+    },
+    {
+        "id": "90",
+        "code": "LVL",
+        "name": "LATVIAN LATS",
+        "country": "LETONIA"
+    },
+    {
+        "id": "91",
+        "code": "LYD",
+        "name": "LIBYAN DINAR",
+        "country": "LIBIA"
+    },
+    {
+        "id": "92",
+        "code": "MAD",
+        "name": "MOROCCAN DIRHAM",
+        "country": "MARRUECOS"
+    },
+    {
+        "id": "93",
+        "code": "MDL",
+        "name": "MOLDOVAN LEU",
+        "country": "MOLDAVIA"
+    },
+    {
+        "id": "94",
+        "code": "MGA",
+        "name": "MALAGASY ARIARY",
+        "country": "MADAGASCAR"
+    },
+    {
+        "id": "95",
+        "code": "MKD",
+        "name": "DENAR",
+        "country": "MACEDONIA"
+    },
+    {
+        "id": "96",
+        "code": "MMK",
+        "name": "KYAT",
+        "country": "MYANMAR (BIRMANIA)"
+    },
+    {
+        "id": "97",
+        "code": "MNT",
+        "name": "TUGRIK",
+        "country": "MONGOLIA"
+    },
+    {
+        "id": "98",
+        "code": "MOP",
+        "name": "PATACA",
+        "country": "MACAO"
+    },
+    {
+        "id": "99",
+        "code": "MRO",
+        "name": "OUGUIYA",
+        "country": "MAURITANIA"
+    },
+    {
+        "id": "100",
+        "code": "MUR",
+        "name": "MAURITIUS RUPEE",
+        "country": "MAURICIO"
+    },
+    {
+        "id": "101",
+        "code": "MVR",
+        "name": "RUFIYAA",
+        "country": "MALDIVAS"
+    },
+    {
+        "id": "102",
+        "code": "MWK",
+        "name": "KWACHA",
+        "country": "MALAUI"
+    },
+    {
+        "id": "103",
+        "code": "MXN",
+        "name": "MEXICAN PESO",
+        "country": "MEXICO"
+    },
+    {
+        "id": "104",
+        "code": "MXV",
+        "name": "MEXICAN UNIDAD DE INVERSION (UDI)",
+        "country": "MEXICO"
+    },
+    {
+        "id": "105",
+        "code": "MYR",
+        "name": "MALAYSIAN RINGGIT",
+        "country": "MALASIA"
+    },
+    {
+        "id": "106",
+        "code": "MZN",
+        "name": "METICAL",
+        "country": "MOZAMBIQUE"
+    },
+    {
+        "id": "107",
+        "code": "NAD",
+        "name": "NAMIBIA DOLLAR",
+        "country": "NAMIBIA"
+    },
+    {
+        "id": "108",
+        "code": "NGN",
+        "name": "NAIRA",
+        "country": "NIGERIA"
+    },
+    {
+        "id": "109",
+        "code": "NIO",
+        "name": "CORDOBA ORO",
+        "country": "NICARAGUA"
+    },
+    {
+        "id": "110",
+        "code": "NOK",
+        "name": "NORWEGIAN KRONE",
+        "country": "NORUEGA"
+    },
+    {
+        "id": "111",
+        "code": "NPR",
+        "name": "NEPALESE RUPEE",
+        "country": "NEPAL"
+    },
+    {
+        "id": "112",
+        "code": "NZD",
+        "name": "NEW ZEALAND DOLLAR",
+        "country": "NUEVA ZELANDA"
+    },
+    {
+        "id": "113",
+        "code": "OMR",
+        "name": "RIAL OMANI",
+        "country": "OMAN"
+    },
+    {
+        "id": "114",
+        "code": "PAB",
+        "name": "BALBOA",
+        "country": "PANAMA"
+    },
+    {
+        "id": "115",
+        "code": "PEN",
+        "name": "NUEVO SOL",
+        "simbol":"S/",
+        "country": "PERU"
+    },
+    {
+        "id": "116",
+        "code": "PGK",
+        "name": "KINA",
+        "country": "PAPUA NUEVA GUINEA"
+    },
+    {
+        "id": "117",
+        "code": "PHP",
+        "name": "PHILIPPINE PESO",
+        "country": "FILIPINAS"
+    },
+    {
+        "id": "118",
+        "code": "PKR",
+        "name": "PAKISTAN RUPEE",
+        "country": "PAKISTAN"
+    },
+    {
+        "id": "119",
+        "code": "PLN",
+        "name": "ZLOTY",
+        "country": "POLONIA"
+    },
+    {
+        "id": "120",
+        "code": "PYG",
+        "name": "GUARANI",
+        "country": "PARAGUAY"
+    },
+    {
+        "id": "121",
+        "code": "QAR",
+        "name": "QATARI RIAL",
+        "country": "QATAR"
+    },
+    {
+        "id": "122",
+        "code": "RON",
+        "name": "NEW LEU",
+        "country": "RUMANIA"
+    },
+    {
+        "id": "123",
+        "code": "RSD",
+        "name": "SERBIAN DINAR",
+        "country": "SERBIA"
+    },
+    {
+        "id": "124",
+        "code": "RUB",
+        "name": "RUSSIAN RUBLE",
+        "country": "RUSIA"
+    },
+    {
+        "id": "125",
+        "code": "RWF",
+        "name": "RWANDA FRANC",
+        "country": "RUANDA"
+    },
+    {
+        "id": "126",
+        "code": "SAR",
+        "name": "SAUDI RIYAL",
+        "country": "ARABIA SAUDITA"
+    },
+    {
+        "id": "127",
+        "code": "SBD",
+        "name": "SOLOMON ISLANDS DOLLAR",
+        "country": "ISLAS SALOMON"
+    },
+    {
+        "id": "128",
+        "code": "SCR",
+        "name": "SEYCHELLES RUPEE",
+        "country": "SEYCHELLES"
+    },
+    {
+        "id": "129",
+        "code": "SDG",
+        "name": "SUDANESE POUND",
+        "country": "SUDAN"
+    },
+    {
+        "id": "130",
+        "code": "SEK",
+        "name": "SWEDISH KRONA",
+        "country": "SUECIA"
+    },
+    {
+        "id": "131",
+        "code": "SGD",
+        "name": "SINGAPORE DOLLAR",
+        "country": "SINGAPUR"
+    },
+    {
+        "id": "132",
+        "code": "SHP",
+        "name": "SAINT HELENA POUND",
+        "country": "SANTA HELENA"
+    },
+    {
+        "id": "133",
+        "code": "SLL",
+        "name": "LEONE",
+        "country": "SIERRA LEONA"
+    },
+    {
+        "id": "134",
+        "code": "SOS",
+        "name": "SOMALI SHILLING",
+        "country": "SOMALIA"
+    },
+    {
+        "id": "135",
+        "code": "SRD",
+        "name": "SURINAM DOLLAR",
+        "country": "SURINAM"
+    },
+    {
+        "id": "136",
+        "code": "STD",
+        "name": "DOBRA",
+        "country": "SANTO TOME Y PRINCIPE"
+    },
+    {
+        "id": "137",
+        "code": "SVC",
+        "name": "EL SALVADOR COLON",
+        "country": "EL SALVADOR"
+    },
+    {
+        "id": "138",
+        "code": "SYP",
+        "name": "SYRIAN POUND",
+        "country": "SIRIA"
+    },
+    {
+        "id": "139",
+        "code": "SZL",
+        "name": "LILANGENI",
+        "country": "SUAZILANDIA"
+    },
+    {
+        "id": "140",
+        "code": "THB",
+        "name": "BAHT",
+        "country": "TAILANDIA"
+    },
+    {
+        "id": "141",
+        "code": "TJS",
+        "name": "SOMONI",
+        "country": "TAYIKISTAN"
+    },
+    {
+        "id": "142",
+        "code": "TMT",
+        "name": "MANAT",
+        "country": "TURKMENISTAN"
+    },
+    {
+        "id": "143",
+        "code": "TND",
+        "name": "TUNISIAN DINAR",
+        "country": "TUNEZ"
+    },
+    {
+        "id": "144",
+        "code": "TOP",
+        "name": "PA'ANGA",
+        "country": "TONGA"
+    },
+    {
+        "id": "145",
+        "code": "TRY",
+        "name": "TURKISH LIRA",
+        "country": "TURQUIA"
+    },
+    {
+        "id": "146",
+        "code": "TTD",
+        "name": "TRINIDAD AND TOBAGO DOLLAR",
+        "country": "TRINIDAD Y TOBAGO"
+    },
+    {
+        "id": "147",
+        "code": "TWD",
+        "name": "NEW TAIWAN DOLLAR",
+        "country": "TAIWAN"
+    },
+    {
+        "id": "148",
+        "code": "TZS",
+        "name": "TANZANIAN SHILLING",
+        "country": "TANZANIA"
+    },
+    {
+        "id": "149",
+        "code": "UAH",
+        "name": "HRYVNIA",
+        "country": "UCRANIA"
+    },
+    {
+        "id": "150",
+        "code": "UGX",
+        "name": "UGANDA SHILLING",
+        "country": "UGANDA"
+    },
+    {
+        "id": "151",
+        "code": "USD",
+        "name": "US DOLLAR",
+        "simbol": "$",
+        "country": "ESTADOS UNIDOS (EEUU)"
+    },
+    {
+        "id": "152",
+        "code": "USN",
+        "name": "US DOLLAR (NEXT DAY)",
+        "country": "ESTADOS UNIDOS (EEUU)"
+    },
+    {
+        "id": "153",
+        "code": "USS",
+        "name": "US DOLLAR (SAME DAY)",
+        "country": "ESTADOS UNIDOS (EEUU)"
+    },
+    {
+        "id": "154",
+        "code": "UYI",
+        "name": "URUGUAY PESO EN UNIDADES INDEXADAS",
+        "country": "URUGUAY"
+    },
+    {
+        "id": "155",
+        "code": "UYU",
+        "name": "PESO URUGUAYO",
+        "country": "URUGUAY"
+    },
+    {
+        "id": "156",
+        "code": "UZS",
+        "name": "UZBEKISTAN SUM",
+        "country": "UZBEKISTAN"
+    },
+    {
+        "id": "157",
+        "code": "VEF",
+        "name": "BOLIVAR FUERTE",
+        "country": "VENEZUELA"
+    },
+    {
+        "id": "158",
+        "code": "VND",
+        "name": "DONG",
+        "country": "VIETNAM"
+    },
+    {
+        "id": "159",
+        "code": "VUV",
+        "name": "VATU",
+        "country": "VANUATU"
+    },
+    {
+        "id": "160",
+        "code": "WST",
+        "name": "TALA",
+        "country": "SAMOA DEL OESTE"
+    },
+    {
+        "id": "161",
+        "code": "XAF",
+        "name": "CFA FRANC BEAC ‡",
+        "country": "-"
+    },
+    {
+        "id": "162",
+        "code": "XAG",
+        "name": "SILVER",
+        "country": "-"
+    },
+    {
+        "id": "163",
+        "code": "XAU",
+        "name": "GOLD",
+        "country": "-"
+    },
+    {
+        "id": "164",
+        "code": "XBA",
+        "name": "BOND MARKETS UNITS EUROPEAN COMPOSITE UNIT (EURCO)",
+        "country": "-"
+    },
+    {
+        "id": "165",
+        "code": "XBB",
+        "name": "EUROPEAN MONETARY UNIT (E.M.U.-6)",
+        "country": "-"
+    },
+    {
+        "id": "166",
+        "code": "XBC",
+        "name": "EUROPEAN UNIT OF ACCOUNT 9(E.U.A.-9)",
+        "country": "-"
+    },
+    {
+        "id": "167",
+        "code": "XBD",
+        "name": "EUROPEAN UNIT OF ACCOUNT 17(E.U.A.-17)",
+        "country": "-"
+    },
+    {
+        "id": "168",
+        "code": "XCD",
+        "name": "EAST CARIBBEAN DOLLAR",
+        "country": "-"
+    },
+    {
+        "id": "169",
+        "code": "XDR",
+        "name": "SDR",
+        "country": "-"
+    },
+    {
+        "id": "170",
+        "code": "XFU",
+        "name": "UIC-FRANC",
+        "country": "-"
+    },
+    {
+        "id": "171",
+        "code": "XOF",
+        "name": "CFA FRANC BCEAO †",
+        "country": "-"
+    },
+    {
+        "id": "172",
+        "code": "XPD",
+        "name": "PALLADIUM",
+        "country": "-"
+    },
+    {
+        "id": "173",
+        "code": "XPF",
+        "name": "CFP FRANC",
+        "country": "-"
+    },
+    {
+        "id": "174",
+        "code": "XPT",
+        "name": "PLATINUM",
+        "country": "-"
+    },
+    {
+        "id": "175",
+        "code": "YER",
+        "name": "YEMENI RIAL",
+        "country": "YEMEN"
+    },
+    {
+        "id": "176",
+        "code": "ZAR",
+        "name": "RAND",
+        "country": "SUDAFRICA"
+    },
+    {
+        "id": "177",
+        "code": "ZMK",
+        "name": "ZAMBIAN KWACHA",
+        "country": "ZAMBIA"
+    },
+    {
+        "id": "178",
+        "code": "ZWL",
+        "name": "ZIMBABWE DOLLAR",
+        "country": "ZIMBABUE"
+    }
+]

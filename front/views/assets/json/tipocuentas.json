@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name": "Cuenta Corriente"
+    },
+    {
+        "id": "2",
+        "name": "Cuenta De Ahorro"
+    },
+    {
+        "id": "3",
+        "name": "Cuenta Nómina"
+    },
+    {
+        "id": "4",
+        "name": "Cuenta De Valores"
+    },
+    {
+        "id": "5",
+        "name": "Cuenta De Detracción"
+    }
+]

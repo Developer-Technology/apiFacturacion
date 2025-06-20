@@ -1,0 +1,97 @@
+[
+    {
+        "id": "1",
+        "name": "GRAVADO-OPERACION ONEROSA",
+        "code": "1000"
+    },
+    {
+        "id": "2",
+        "name": "GRAVADO-RETIRO POR PREMIO",
+        "code": "9996"
+    },
+    {
+        "id": "3",
+        "name": "GRAVADO-RETIRO POR DONACION",
+        "code": "9996"
+    },
+    {
+        "id": "4",
+        "name": "GRAVADO-RETIRO",
+        "code": "9996"
+    },
+    {
+        "id": "5",
+        "name": "GRAVADO-RETIRO POR PUBLICIDAD",
+        "code": "9996"
+    },
+    {
+        "id": "6",
+        "name": "GRAVADO-BONIFICACIONES",
+        "code": "9996"
+    },
+    {
+        "id": "7",
+        "name": "GRAVADO-RETIRO POR ENTREGA A TRABAJADORES",
+        "code": "9996"
+    },
+    {
+        "id": "8",
+        "name": "GRAVADO-IVAP",
+        "code": "9996"
+    },
+    {
+        "id": "9",
+        "name": "EXONERADO-OPERACION ONEROSA",
+        "code": "9997"
+    },
+    {
+        "id": "10",
+        "name": "EXONERADO-TRANSFERENCIA GRATUITA",
+        "code": "9996"
+    },
+    {
+        "id": "11",
+        "name": "INAFECTO-OPERACION ONEROSA",
+        "code": "9998"
+    },
+    {
+        "id": "12",
+        "name": "INAFECTO-RETIRO POR BONIFICACION",
+        "code": "9996"
+    },
+    {
+        "id": "13",
+        "name": "INAFECTO-RETIRO",
+        "code": "9996"
+    },
+    {
+        "id": "14",
+        "name": "INAFECTO-RETIRO POR MUESTRAS MEDICAS",
+        "code": "9996"
+    },
+    {
+        "id": "15",
+        "name": "INAFECTO-RETIRO POR CONVENIO COLECTIVO",
+        "code": "9996"
+    },
+    {
+        "id": "16",
+        "name": "INAFECTO-RETIRO POR PREMIO",
+        "code": "9996"
+    },
+    {
+        "id": "17",
+        "name": "INAFECTO-RETIRO POR PUBLICIDAD",
+        "code": "9996"
+    },
+    {
+        "id": "18",
+        "name": "INAFECTO-TRANSFERENCIA GRATUITA",
+        "code": "9996"
+    },
+    {
+        "id": "19",
+        "name": "EXPORTACION DE BIENES O SERVICIOS",
+        "code": "9996"
+    }
+]

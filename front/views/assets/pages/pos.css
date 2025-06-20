@@ -1,0 +1,24 @@
+.fullHeight {
+    height: calc(100vh - 90px);
+}
+
+.mr_-45 {
+    margin-right: -45px;
+}
+
+.shopping-cart-wrap img {
+    max-width: 100px;
+}
+
+.shopping-cart-wrap thead th {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.shopping-cart-wrap .price {
+    color: #25476a;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    display: block;
+}
