@@ -119,7 +119,6 @@
 
                         <!-- Ui Elements submenu list -->
                         <ul class="mininav-content nav collapse">
-                            <?php if($_SESSION["user"]->rol_usuario != 3): ?>
                             <li class="nav-item has-sub">
                                 <a href="#" class="mininav-toggle nav-link collapsed <?php if (!empty($routesArray) && $routesArray[1] == "despatch-remitent" || $routesArray[1] == "despatch-transport"): ?>active<?php endif ?>">Guía Remisión</a>
                                 <ul class="mininav-content nav collapse">
@@ -137,9 +136,8 @@
                             <li class="nav-item">
                                 <a href="/voided" class="nav-link waves-effect <?php if (!empty($routesArray) && $routesArray[1] == 'voided'): ?>active<?php endif?>">Comunicación Baja</a>
                             </li>
-                            <?php endif ?>
                             <li class="nav-item">
-                                <a href="/documents" class="nav-link waves-effect <?php if (!empty($routesArray) && $routesArray[1] == 'documents'): ?>active<?php endif?>">Historial</a>
+                                <a href="/documents" class="nav-link waves-effect <?php if (!empty($routesArray) && $routesArray[1] == 'documents'): ?>active<?php endif?>">Boletas / Facturas</a>
                             </li>
                         </ul>
                         <!-- END : Ui Elements submenu list -->

@@ -243,13 +243,14 @@ class DatatableController
 
                     if ($value->id_usuario != 1) {
 
-                        $actions = "<div class='btn-group'>
-                                    <button type='button' class='btn btn-outline-primary dropdown-toggle btn-xs waves-effect' data-bs-toggle='dropdown' aria-expanded='false'>Acciones</button>
-                                    <ul class='dropdown-menu'>
-                                        <li><a class='dropdown-item' href='/users/edit/" . base64_encode($value->id_usuario . "~" . $_GET["token"]) . "'>Editar Registro</a></li>
-                                        <li><a class='dropdown-item removeItem' idItem='" . base64_encode($value->id_usuario . "~" . $_GET["token"]) . "' table='usuarios' suffix='usuario' deleteFile='no'' page='users'>Eliminar Registro</a></li>
-                                    </ul>
-                                </div>";
+                        $actions = "<div class='d-flex flex-wrap justify-content-center gap-1'>
+                                        <a href='/users/edit/" . base64_encode($value->id_usuario . "~" . $_GET["token"]) . "' class='btn btn-xs btn-icon btn-light waves-effect'>
+                                            <i class='ti-pencil fs-5'></i>
+                                        </a>
+                                        <a href='javascript:void(0)' idItem='" . base64_encode($value->id_usuario . "~" . $_GET["token"]) . "' table='usuarios' suffix='usuario' deleteFile='no'' page='users' class='btn btn-xs btn-icon btn-light waves-effect removeItem'>
+                                            <i class='ti-trash fs-5'></i>
+                                        </a>
+                                    </div>";
 
                     $actions = TemplateController::htmlClean($actions);
 
@@ -268,9 +269,17 @@ class DatatableController
 
                     $txtRol = "Administrador";
 
-                } else {
+                } else if ($value->rol_usuario == 2) {
 
                     $txtRol = "Usuario";
+
+                } else if ($value->rol_usuario == 3) {
+
+                    $txtRol = "Cliente";
+
+                } else {
+
+                    $txtRol = "---";
 
                 }
 

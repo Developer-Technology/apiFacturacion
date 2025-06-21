@@ -46,12 +46,11 @@ if(isset($_GET["start"]) && isset($_GET["end"])){
 
             </div>
             <!-- END : Left toolbar -->
-
             <?php if($_SESSION["user"]->rol_usuario != 3): ?>
             <!-- Right Toolbar -->
             <div class="col-md-6 d-flex gap-1 align-items-center justify-content-md-end mb-3">
 
-                <a href="/summary/new" class="btn btn-primary hstack gap-2 align-self-center">
+                <a href="/voided/new" class="btn btn-primary hstack gap-2 align-self-center">
                     <i class="demo-psi-add fs-5"></i>
                     <span class="vr"></span>
                     Nuevo Registro
@@ -69,15 +68,17 @@ if(isset($_GET["start"]) && isset($_GET["end"])){
         <div class="table-responsive">
             
             <input type="hidden" id="idTenant" value="<?php echo $dataTenants->id_empresa ?>">
-            <table id="adminsTable" class="table table-bordered table-striped table-hover tableSumm">
+            <table id="adminsTable" class="table table-bordered table-striped table-hover tableVoid">
                                 
                 <thead>
                     <tr>
                         <th>#</th>
+                        <th>Tipo</th>
                         <th>Documento</th>
                         <th>Emisión</th>
                         <th>Estado SUNAT</th>
                         <th>Fecha</th>
+                        <th>Usuario</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>

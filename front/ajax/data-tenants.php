@@ -232,13 +232,16 @@ class DatatableController
                     
                     }
 
-                    $actions = "<div class='btn-group'>
-                                    <button type='button' class='btn btn-outline-primary dropdown-toggle btn-xs waves-effect' data-bs-toggle='dropdown' aria-expanded='false'>Acciones</button>
-                                    <ul class='dropdown-menu'>
-                                        <li><a class='dropdown-item' href='/redirect/" . base64_encode($value->id_empresa . '~' . $_GET["token"]) . "'>Panel Empresa</a></li>
-                                        <li><a class='dropdown-item' href='/tenants/edit/" . base64_encode($value->id_empresa . "~" . $_GET["token"]) . "'>Editar Registro</a></li>
-                                        <li><a class='dropdown-item removeItem' idItem='" . base64_encode($value->id_empresa . "~" . $_GET["token"]) . "' table='empresas' suffix='empresa' deleteFile='no'' page='tenants'>Eliminar Registro</a></li>
-                                    </ul>
+                    $actions = "<div class='d-flex flex-wrap justify-content-center gap-1'>
+                                    <a href='/redirect/" . base64_encode($value->id_empresa . '~' . $_GET["token"]) . "' class='btn btn-xs btn-icon btn-light waves-effect'>
+                                        <i class='ti-home fs-5'></i>
+                                    </a>
+                                    <a href='/tenants/edit/" . base64_encode($value->id_empresa . "~" . $_GET["token"]) . "' class='btn btn-xs btn-icon btn-light waves-effect'>
+                                        <i class='ti-pencil fs-5'></i>
+                                    </a>
+                                    <a href='javascript:void(0)' idItem='" . base64_encode($value->id_empresa . "~" . $_GET["token"]) . "' table='empresas' suffix='empresa' deleteFile='no'' page='tenants' class='btn btn-xs btn-icon btn-light waves-effect removeItem'>
+                                        <i class='ti-trash fs-5'></i>
+                                    </a>
                                 </div>";
 
                     $actions = TemplateController::htmlClean($actions);

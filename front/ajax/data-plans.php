@@ -145,12 +145,13 @@ class DatatableController
 
                 } else {
 
-                    $actions = "<div class='btn-group'>
-                                    <button type='button' class='btn btn-outline-primary dropdown-toggle btn-xs waves-effect' data-bs-toggle='dropdown' aria-expanded='false'>Acciones</button>
-                                    <ul class='dropdown-menu'>
-                                        <li><a class='dropdown-item' href='/plans/edit/" . base64_encode($value->id_plan . "~" . $_GET["token"]) . "'>Editar Registro</a></li>
-                                        <li><a class='dropdown-item removeItem' idItem='" . base64_encode($value->id_plan . "~" . $_GET["token"]) . "' table='planes' suffix='plan' deleteFile='no'' page='plans'>Eliminar Registro</a></li>
-                                    </ul>
+                    $actions = "<div class='d-flex flex-wrap justify-content-center gap-1'>
+                                    <a href='/plans/edit/" . base64_encode($value->id_plan . "~" . $_GET["token"]) . "' class='btn btn-xs btn-icon btn-light waves-effect'>
+                                        <i class='ti-pencil fs-5'></i>
+                                    </a>
+                                    <a href='javascript:void(0)' idItem='" . base64_encode($value->id_plan . "~" . $_GET["token"]) . "' table='planes' suffix='plan' deleteFile='no'' page='plans' class='btn btn-xs btn-icon btn-light waves-effect removeItem'>
+                                        <i class='ti-trash fs-5'></i>
+                                    </a>
                                 </div>";
 
                     $actions = TemplateController::htmlClean($actions);

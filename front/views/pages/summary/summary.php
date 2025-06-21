@@ -1,14 +1,3 @@
-<?php if($_SESSION["user"]->rol_usuario == 3) {
-
-	echo '<script>
-			fncFormatInputs();
-			matPreloader("off");
-			fncSweetAlert("close", "", "");
-			fncSweetAlert("error", "You do not have permission to access this view", "/");
-		</script>';
-
-} else { ?>
-
 <div class="content__header content__boxed overlapping">
     <div class="content__wrap">
 
@@ -38,7 +27,7 @@
         <!-- END : Breadcrumb -->
 
         <h1 class="page-title mb-0 mt-2">Resumen De Boletas</h1>
-        <p class="lead">En esta sección podrás realizar el envío de resumenes de boletas.</p>
+        <p class="lead">En esta sección podrás administrar resumenes de boletas.</p>
 
     </div>
 
@@ -64,8 +53,6 @@ if (isset($routesArray[2])) {
 }
 
 ?>
-
-<?php } ?>
 
     </div>
 

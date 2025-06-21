@@ -46,7 +46,7 @@ if(isset($_GET["start"]) && isset($_GET["end"])){
 
             </div>
             <!-- END : Left toolbar -->
-            
+            <?php if($_SESSION["user"]->rol_usuario != 3): ?>
             <!-- Right Toolbar -->
             <div class="col-md-6 d-flex gap-1 align-items-center justify-content-md-end mb-3">
 
@@ -58,6 +58,7 @@ if(isset($_GET["start"]) && isset($_GET["end"])){
 
             </div>
             <!-- END : Right Toolbar -->
+            <?php endif ?>
 
         </div>
     </div>
